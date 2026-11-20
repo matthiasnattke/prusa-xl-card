@@ -13,7 +13,9 @@ UI texts are available in **English and German** and follow the user's language.
 
 ## Installation
 
-**HACS** (recommended): HACS → ⋮ → *Custom repositories* → add this repository's URL with type *Dashboard* → install *Prusa XL Card* → reload the browser.
+**HACS (recommended):** open HACS, search for **Prusa XL Card**, install it and reload the browser.
+
+If it does not show up yet: HACS → ⋮ → *Custom repositories* → add this repository's URL with type *Dashboard* → install → reload the browser.
 
 **Manual:** copy `prusa-xl-card.js` to `config/www/` and add it as a dashboard resource (`/local/prusa-xl-card.js`, type *JavaScript module*).
 
